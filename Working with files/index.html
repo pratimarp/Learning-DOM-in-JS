@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> DOM Manipulation </title>
+    <script src="script.js" defer></script> 
+    <!--
+        dever attribute is ideal when modifying the DOM or ensuring scripts run in the correct order
+        The script will execute after the entire DOM is parsed, preventing errors if it tries to access elements in <body>.
+    -->
+</head>
+<body>
+    <div class="content">
+        <span id="hi" data-test="This is a test">Hello</span>
+        <span id="bye">Bye</span>
+    </div>
+    <article id="article" class="hidden"></div>
+</body>
+</html>
